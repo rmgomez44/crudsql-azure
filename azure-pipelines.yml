@@ -67,7 +67,7 @@ stages:
   - deployment: DeploymentJob
     pool:
       vmImage: $(vmImageName)
-    environment: $(environmentName)
+    environment: 'caprichosa'
     strategy:
       runOnce:
         deploy:
